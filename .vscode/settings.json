@@ -7,15 +7,16 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/.ruby-lsp": true,
-    ".gitignore": false,
+    ".gitignore": true,
     "**/*.lockb": true,
-    "**/.parcel-cache": false,
-    "**/.vscode": false,
+    "**/.parcel-cache": true,
+    "**/.vscode": true,
     "*.lockb": true,
     "**/jsconfig.json": true,
-    "**/node_modules": true
+    "**/node_modules": false
   },
   "explorerExclude.backup": {},
   "typescript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.preferences.importModuleSpecifierEnding": "js"
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "cSpell.words": ["broswerslist"]
 }

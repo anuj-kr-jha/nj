@@ -20,6 +20,12 @@ const TitleComponent = () => (
   </h3>
 );
 
+const titleElement = (
+  <h3 className="title" tabIndex="2">
+    This is title element
+  </h3>
+);
+
 /**
  * * COMPONENT COMPOSITION
  * We can use one or more component inside another component
@@ -28,6 +34,17 @@ const HeadingComponent = () => (
   <div class="container">
     <h1 className="heading">This is heading component</h1>
     <TitleComponent />
+    {titleElement}
   </div>
 );
 export default HeadingComponent;
+
+/**
+ * All of the following are valid for component:
+ *   <TitleComponent />
+ *   <TitleComponent></TitleComponent>
+ *   {TitleComponent()}
+ *
+ * All of the following are valid for element:
+ *  {titleElement}
+ */

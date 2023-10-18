@@ -2,11 +2,11 @@
   "name": "nr",
   "version": "1.0.0",
   "description": "namashte react",
-  "module": "./src/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bunx parcel ./public/index.html"
+    "dev": "bunx parcel ./index.html -p 9000",
+    "prod": "bunx parcel build ./index.html"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/anuj-kr-jha/nj#readme",
   "devDependencies": {
     "bun-types": "latest",
-    "parcel": "^2.10.0",
     "process": "^0.11.10"
   },
   "peerDependencies": {

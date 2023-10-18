@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import parent from './App.js';
+import ParentComponent from './App.js';
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
-root.render(parent);
+root.render(<ParentComponent />);

@@ -8,8 +8,19 @@
     "**/Thumbs.db": false,
     "**/.ruby-lsp": false,
     ".gitignore": false,
+    "**/*.lockb": false,
+    "**/.gitignore": false
+  },
+  "explorerExclude.backup": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.ruby-lsp": false,
+    ".gitignore": false,
     "**/*.lockb": true,
     "**/.gitignore": true
-  },
-  "explorerExclude.backup": {}
+  }
 }

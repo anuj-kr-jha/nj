@@ -1,5 +1,10 @@
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ParentComponent from './App.js';
+import AppComponent from './App.js';
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
-root.render(<ParentComponent />);
+root.render(
+  <React.StrictMode>
+    <AppComponent />
+  </React.StrictMode>
+);
